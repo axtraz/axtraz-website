@@ -1,4 +1,4 @@
-import { BookOpen, Globe, Terminal, FileText } from "lucide-react";
+import { BookOpen, Globe, Terminal, FileText, KeyRound } from "lucide-react";
 import { Github } from "@/components/icons";
 
 export const projects = [
@@ -22,6 +22,16 @@ export const projects = [
         links: [
             { label: "GitHub", href: "https://github.com/axtraz/pyla-note", icon: Github },
             { label: "Site", href: "https://pyla-note.vercel.app/", icon: Globe },
+        ],
+    },
+    {
+        name: "passgen",
+        type: "go · cli",
+        icon: KeyRound,
+        description:
+            "A CLI password generator built with Go, featuring entropy scoring and customizable generation rules.",
+        links: [
+            { label: "GitHub", href: "https://github.com/axtraz/passgen", icon: Github },
         ],
     },
     {
